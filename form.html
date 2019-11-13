@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="form_style.css" rel="stylesheet" />
+    <link href="form_mobile_style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img src="flyers_banner.jpg" width="1920" height="420" id="logoImg" alt="">
+        <nav>
+            <ul>
+                <li class="highestmenu"><a href="news.html">News</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="survey" action=mailto:gawbillchris@gmail.com method="post">
+        <fieldset id="custInfo">
+            <legend>Newsletter Sign-Up</legend>
+            <div class="formRow">
+                <label for="firstName">First Name</label>
+                <input name="custFirstName" id="firstName" type="text" placeholder="First Name" required />
+            </div>
+            <div class="formRow">
+                <label for="lastName">Last Name</label>
+                <input name="custLastName" id="lastName" type="text" placeholder="Last Name" required />
+            </div>
+            <div class="formRow">
+                <label for="E-mail">E-mail</label>
+                <input name="custEmail" id="email" type="text" placeholder="E-mail" required />
+            </div>
+            <div class="formRow">
+                <label for="State">State</label>
+                <select name="State" id="state">
+                    <option value="Alabama">AL</option>
+                    <option value="Alaska">AK</option>
+                    <option value="Arizona">AZ</option>
+                    <option value="Arkansas">AR</option>
+                    <option value="California">CA</option>
+                    <option value="Colorado">CO</option>
+                    <option value="Connecticut">CT</option>
+                    <option value="Deleware">DE</option>
+                    <option value="Florida">FL</option>
+                    <option value="Georgia">GA</option>
+                    <option value="Hawaii">HI</option>
+                    <option value="Idaho">ID</option>
+                    <option value="Illinois">IL</option>
+                    <option value="Indiana">IN</option>
+                    <option value="Iowa">IA</option>
+                    <option value="Kansas">KS</option>
+                    <option value="Kentucky">KY</option>
+                    <option value="Louisiana">LA</option>
+                    <option value="Maine">ME</option>
+                    <option value="Maryland">MD</option>
+                    <option value="Massachusetts">MA</option>
+                    <option value="Michigan">MI</option>
+                    <option value="Minnesota">MN</option>
+                    <option value="Mississippi">MS</option>
+                    <option value="Missouri">MO</option>
+                    <option value="Montana">MT</option>
+                    <option value="Nebraska">NE</option>
+                    <option value="Nevada">NV</option>
+                    <option value="New Hampshire">NH</option>
+                    <option value="New Jersey">NJ</option>
+                    <option value="New Mexico">NM</option>
+                    <option value="New York">NY</option>
+                    <option value="North Carolina">NC</option>
+                    <option value="North Dakota">ND</option>
+                    <option value="Ohio">OH</option>
+                    <option value="Oklahoma">OK</option>
+                    <option value="Oregon">OR</option>
+                    <option value="Pennsylvania">PA</option>
+                    <option value="Rhode Island">RI</option>
+                    <option value="South Carolina">SC</option>
+                    <option value="South Dakota">SD</option>
+                    <option value="Tennessee">TN</option>
+                    <option value="Texas">TX</option>
+                    <option value="Utah">UT</option>
+                    <option value="Vermont">VT</option>
+                    <option value="Virginia">VA</option>
+                    <option value="Washington">WA</option>
+                    <option value="West Virginia">WV</option>
+                    <option value="Wisconsin">WI</option>
+                    <option value="Wyoming">WY</option>
+                </select>
+            </div>
+        </fieldset>
+        <div id="button">
+            <input type="submit" value="Submit My Sruvey" />
+        </div>
+    </form>
+    <footer>
+        <a href="form.html">Return to the top of the page</a>
+        <section>
+            Chris Gawbill <br />
+            gawbillchris@gmail.com <br />
+            Last Updated on 11/14/19 <br />
+        </section>
+    </footer>
+</body>
+</html>
