@@ -49,4 +49,16 @@
         border-top: dashed;
         border-color: orangered;
     }
+    h1{
+        border-top: dashed;
+        border-bottom: dashed;
+        
+    }
+    div{
+        border-bottom: dashed;
+        margin-top: 150px;
+    }
+    h1, div{
+        border-color: orangered;
+    }
 }

@@ -17,7 +17,7 @@ footer{
     text-align: center;
     font-family: sans-serif;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 481px) {
     div {
         border: solid;
         border-color: black;
@@ -83,6 +83,7 @@ footer{
     td {
         text-align: center;
     }
+
     section {
         display: block;
         border: solid;
@@ -94,7 +95,8 @@ footer{
         margin: 10px 30px 0px 30px;
         font-family: sans-serif;
     }
-    div{
+
+    div {
         display: block;
         border: solid;
         border-color: black;
